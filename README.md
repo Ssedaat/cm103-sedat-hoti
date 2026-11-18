@@ -1,0 +1,2 @@
+Hello Professor! I just wanted to let you know that, since I'm a new student, I have completed all the assignments so far, except for those involving Wireshark. I'm having some issues with it, as I'm unable to capture any packets despite trying to troubleshoot the problem.
+Would it be possible to take a look at it together during class? I would really appreciate your help so I can resolve the issue.
