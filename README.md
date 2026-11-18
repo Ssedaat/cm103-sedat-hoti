@@ -1,1 +1,0 @@
-# cm103-sedat-hoti

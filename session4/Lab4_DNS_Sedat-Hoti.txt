@@ -1,0 +1,30 @@
+Part 1
+Address:  103.21.124.133
+Address:  8.8.8.8
+Non-authoritative answer:
+Name:    www.iitb.ac.in
+   The answer is non-authoritative which means that the DNS server responding is not authoritative for this domain, meaning the respond came from another server 
+
+4. The name of the first listed ----->    iitb.ac.in      nameserver = dns1.iitb.ac.in
+   The command to use after ------> nslookup dns1.iitb.ac.in
+
+5. it is number 15 and is carried through UDP
+6. it is number 17 and again through UDP
+Destination Port: 53
+7. Query --> Source Port: 58350, Destination Port: 53
+   Response --> Source Port: 53, Destination Port: 58350
+8. Internet Protocol Version 4, Src: 10.0.0.44, Dst: 75.75.75.75 while in the second it was 8.8.8.8
+9. in query there is only 1 question and 0 answers RRs
+10. in response there is 1 question and 1 answer RRs
+11. the query destination port is 53, the response source port is the same 53
+12. It was sent to: 8.8.8.8 also yes thats same as my dns server
+13. It is a IPv4 and it doesn't contain any answer
+14. In response there is 1 question and 1 answer
+15. It was sent to 75.75.75.75, no mine is 8.8.8.8
+16. Question 1, Answers 1
+
+Part2
+B1. 1.1.1.1 is operated by Cloudflare, and 8.8.8.8 is operated by Google. Yes. Both public DNS servers returned identical results: IPv4 129.187.255.109 and IPv6 2001:4ca0:0:103::81bb:ff6d
+B2. In the first time TTL is 5723, in the second one, after 30s it is 5687
+B3, B4. Wireshark not working
+B5. Someone who can see my DNS queries would be able to detect which websites i am trying to open and leading to the reveal of my interests, services i use and other delicate info. 
